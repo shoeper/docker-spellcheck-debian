@@ -7,7 +7,7 @@ LABEL maintainer="Sven Höper" \
   org.label-schema.schema-version="1.0"
 
 ENV LANG="en_US.UTF-8" \
-    LANGUAGE"en_US.UTF-8" \
+    LANGUAGE="en_US.UTF-8" \
     LC_ALL="en_US.UTF-8" \
     LC_TYPE="en_US.UTF-8" \
     DEBIAN_FRONTEND="noninteractive"
