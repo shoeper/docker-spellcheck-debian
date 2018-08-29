@@ -1,5 +1,10 @@
 FROM debian:testing
-LABEL maintainer="Sven Höper <sven@hoeper.me>"
+
+LABEL maintainer="Sven Höper" \
+  org.label-schema.name="shoeper/spellcheck" \
+  org.label-schema.description="Docker image to run spellchecks with aspell" \
+  org.label-schema.vcs-url="https://github.com/shoeper/docker-spellcheck-debian" \
+  org.label-schema.schema-version="1.0"
 
 ENV LANG="en_US.UTF-8" \
     LANGUAGE"en_US.UTF-8" \
